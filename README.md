@@ -1,1 +1,1 @@
-Repositório onde deixarei registrado todos os meus desafios feitos no Rocketseatd
+Repositório onde deixarei registrado todos os meus desafios feitos no Rocketseat
