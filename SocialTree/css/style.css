@@ -16,6 +16,14 @@ body {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
+p.instagram {
+    margin: 20px 0;
+}
+
 .profileimage {
     border-radius: 100%;
     border: 2px solid #BB99DD;
@@ -25,6 +33,7 @@ body {
 .linkbox {
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
 }
 
 .link {
@@ -37,10 +46,28 @@ body {
     height: 50px;
     border-radius: 5px;
     border: 2px solid #BB99DD;
-    text-decoration: none;
     color: #BB99DD;
-    font-weight: bold;
-    
-    
-    
+    font-weight: bold; 
+}
+
+.link:hover {
+    background-color: #ece2f5;
+}
+
+.linkbox2 {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.linkbox2 a {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkbox2 a:hover {
+    background-color: #ece2f5;
+    border-radius: 10px;
 }
